@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gen{
+    width: 100%;
+    height: 100%;
+}
+.top{
+    width: 70%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(./img/keM.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+.top a{
+    text-decoration: none;
+    color: rgb(22, 21, 21);
+    font-family: 'Red Hat Mono', monospace;
+    display: block;
+}
+.top p{
+    height: 100px;
+    width: 1350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Sammary{
+    text-align: center;
+    width: 300px;
+    height: 80px;
+    background-color: rgb(207, 112, 131);
+    border-radius: 20px;
+}
+.header{
+    width: 100%;
+    height: 600px;
+    background-color: white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.gen > p{
+    text-align: center;
+    font-size: 30px;
+}
+.box_job{
+    width: 70%;
+    height: 500px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.box_job h2{
+    margin-left: 10px;
+}
+.box{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+img{
+    height: 30px;
+    width: 30px;
+}
+.box .conteiner_job{
+    width: 350px;
+    height: 130px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.box_inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_inner a{
+    text-decoration: none;
+    color: rgb(176, 255, 229);
+}
+.box_inner p{
+        font-size: 27px;
+        font-family: 'Red Hat Mono', monospace;
+}
+.text{
+    display: flex;
+}
+.text h3{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.view{
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 80px;
+    background-color:  rgb(158, 158, 158);
+    border-radius: 10px;
+}
+.view a{
+    margin-left: 10px;
+}
+.view:hover{
+    background-color: rgb(87, 87, 87);
+    color: white;
+}
+.view:hover a{
+    color: white;
+}
+.main{
+    width: 100%;
+    height: 900px;
+    background-color: white;
+}
+.box2{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.box_job2{
+    width: 70%;
+    height: 900px;
+    background-color: cadetblue;
+    margin: 10px auto;
+    border-radius: 20px;
+}
+.box_job2 h2{
+    margin-left: 10px;
+}
+.text2{
+    display: flex;
+}
+.text2 h3{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.text22{
+    display: flex;
+}
+.text22 h3{
+    font-size: 30px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.box_job2{
+    width: 70%;
+    height: 500px;
+    background-color: cadetblue;
+    margin: 0 auto;
+    border-radius: 20px;
+}
+.box_job2 h2{
+    margin-left: 10px;
+}
+.box2 .conteiner_job2{
+    width: 350px;
+    height: 120px;
+    background-color: bisque;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.box_inner{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.box_inner a{
+    text-decoration: none;
+    color: rgb(176, 255, 229);
+}
+input{
+    position: absolute;
+    left: 0;
+    top: -20px;
+    
+}
+input::before{
+    content: "";
+    position: fixed;
+    background: url(./img/space_060241612.jpg);
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    border-radius: 20px;
+    border: 1px solid white;
+    top: 12px;
+    right: 10%;
+    cursor: pointer;
+}
+input:checked + .gen h1{
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 100px;
+}
+input:checked + .gen  > p{
+    color: white;
+    font-family: 'Dongle', sans-serif;
+    font-size: 50px;
+}
+input:checked + .gen .header .box_job{
+    /* background-color: black; */
+    /* background: url(./img/fxVE.gif); */
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+}
+input:checked + .main .box_job2{
+    /* background: url(./img/fxVE.gif); */
+    background-size: cover;
+    background-position: center;
+}
+input:checked + .gen .main .box_job2{
+    background-color: rgba(255, 255, 255, 0);
+    color: white;
+    border: 2px solid white;
+}
+input:checked + .gen .header .conteiner_job{
+    background: url(./img/2R97.gif);
+    color: white;
+}
+input:checked + .gen .main .conteiner_job2{
+    background: url(./img/2R97.gif);
+    color: white;
+}
+input:checked + .gen{
+    background: url(./img/Beautiful-space-galaxy-nebula-planet-stars_m.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+input:checked + .gen .header{
+    background-color: rgba(0, 0, 0, 0);
+}
+input:checked + .gen .main{
+    background-color: rgba(0, 0, 0, 0);
+}
+input:checked + .gen .down{
+    background-color: rgba(0, 0, 0, 0);
+}
+input:checked + .gen .Sammary{
+    background:url(./img/2R97.gif);
+    color: white;
+}
+input:checked + .gen .top {
+    background: none;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+}
+
+@media screen and (max-width:1501px){
+    .header{
+        height: 600px;
+        border-radius: 20px;
+    }
+    .box_job{
+        height: 600px;
+        border-radius: 20px;
+    }
+    .main{
+        height: 1000px;
+        margin-top: 100px;
+    }
+    .box_job2{
+        height: 800px;
+        margin-top: 100px;
+    }
+}
+@media screen and (max-width:1000px){
+    .header{
+        height: 900px;
+        border-radius: 20px;
+    }
+    .box_job{
+        height: 900px;
+        border-radius: 20px;
+    }
+    .main{
+        height: 1500px;
+        margin-top: 150px;
+    }
+    .box_job2{
+        height: 1300px;
+        margin-top: 150px;
+    }
+}
+@media screen and (max-width:375px){
+    .box_inner p{
+        font-size: 20px;
+    }
+}
+@media screen  and (max-width:470px){
+    .text22 h3{
+        font-size: 20px;
+    }
+}

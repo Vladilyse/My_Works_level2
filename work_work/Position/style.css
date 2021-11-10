@@ -1,0 +1,167 @@
+.Japan{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(255, 255, 255);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid black;
+}
+.krug{
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 100%;
+    margin: 0 auto;
+    
+}
+.conteiner{
+    border: 2px solid black;
+    height: 1500px;
+}
+.conteiner div{
+    width: 150px;
+    height: 50px;
+    background-color: blanchedalmond;
+    text-align: center;
+    border: 1px solid black;
+}
+.conteiner1{
+    position: static;
+}
+.conteiner2{
+    position: relative;
+    top: 20px;
+    left: 150px;
+}
+.conteiner3{
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+.conteiner4{
+    position: fixed;
+    left: 400px;
+    top: 10px;
+}
+.conteiner5{
+    position: static;
+}
+.conteiner6{
+    position: static;
+}
+.conteiner7{
+    position: static;
+}
+.conteiner8{
+    position: sticky;
+    left: 500px;
+    top: 300px;
+}
+.conteiner9{
+    position: static;
+}
+.conteiner10{
+    position: static;
+}
+.conteiner11{
+    position: static;
+}
+.conteiner12{
+    position: relative;
+    right: -120px;
+    bottom: 100px;
+}
+.conteiner13{
+    position: static;
+}
+.pencil{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    
+    width: 100px;
+    height: 400px;
+    border-radius: 10px;
+
+}
+.grafit{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(207, 130, 75);
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -125px;
+    bottom: 0;
+    clip-path: polygon(50% 0%, 100% 91%, 100% 100%, 0% 100%, 0% 90%);
+    box-shadow: inset  0 45px rgb(0, 0, 0);
+}
+.random1{
+    position: absolute;
+    left: 33px;
+    top: 0;
+    width: 33px;
+    height: 100%;
+    background-color: rgb(123, 167, 250);
+    border-radius: 100px 100px 0 0;
+}
+.random2{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 33px;
+    height: 100%;
+    background-color: rgb(84, 128, 209);
+    border-radius: 100px 100px 0 0;
+}
+.random3{
+    position: absolute;
+    left:66px;
+    top: 0;
+    width: 33px;
+    height: 100%;
+    background-color: rgb(142, 178, 245);
+    border-radius: 100px 100px 0 0;
+}
+.insta{
+    width: 400px;
+    height: 400px;
+    background-color: blueviolet;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 1500px;
+    left: 1300px;
+    background: linear-gradient(20deg, rgb(222, 238, 6),rgb(228, 8, 63), rgb(8, 5, 196));
+}
+.angled-gradient{
+    background: linear-gradient(70 deg, violet, yellow);
+}
+.insta_child{
+    width: 250px;
+    height: 250px;
+    border-radius: 80px;
+    border: 25px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.insta_small{
+    width: 100px;
+    height: 100px;
+    border: 25px solid white;
+    border-radius: 100%;
+}
+.krug{
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background-color: white;
+    position: relative;
+    left: 80px;
+    bottom: 60px;
+}

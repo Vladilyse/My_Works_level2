@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle&display=swap');
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gen{
+    width: 100%;
+    height: 100%;
+    margin-top: -0px;
+}
+.header{
+    width: 100%;
+    height: 100%;
+}
+.conteiner{
+    width: 100%;
+    max-width: 1200px;
+}
+.header_inner{
+    width: 100%;
+    height: 100%;
+    margin-top: 10px;
+    -webkit-box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92); 
+    box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92);
+    border-radius: 20px;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    border-bottom: 2px solid black;
+}
+.logo_top a{
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: red;
+} 
+.menu_top a{
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    font-family: 'Mochiy Pop One', sans-serif;
+    margin-right: 15px;
+}
+.menu_top a:hover{
+    color: cadetblue;
+    border-bottom: 2px solid cadetblue;
+}
+.text_header{
+    width: 100%;
+    height: 90%;
+    text-align: center;
+    padding: 100px 0;
+}
+.text_header h1{
+    font-size: 50px;
+    color: red;
+}
+span{
+    color: black;
+}
+.text_header p{
+    color: black;
+    font-size: 20px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+.header_knopka{
+    width: 100%;
+    height: 30%;
+    margin-top: 70px;
+}
+.knopka{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 60px;
+    font-size: 20px;
+    transition: all 0.5s;
+    background-color: rgb(175, 175, 175);
+}
+.knopka:hover{
+    background-color: cadetblue;
+    color: white;
+    -webkit-box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92); 
+    box-shadow: 2px -2px 10px 1px rgba(0,0,0,0.92);
+}
+.main{
+    width: 100%;
+    height: 100%;
+}
+.main_inner{
+    width: 100%;
+    display: flex;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92); 
+    box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92);
+    margin-top: 20px;
+}
+.sidebar{
+    width: 250px;
+    background-color: rgb(37, 77, 78);
+    border-radius: 20px 0 0 20px;
+    margin-left: -2px;
+}
+.sidebar div{
+    width: 120px;
+    margin-top: 50px;
+    margin-left: 70px;
+    border-bottom: 2px solid black;
+    text-align: end;
+}
+.a_box a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.content{
+    width: 900px;
+    height: 600px;
+    /* background-color: white; */
+    display: flex;
+    align-items: center;
+}
+.info{
+    width: 600px;
+    height: 300px;
+    background-color: aqua;
+    padding: 100px 80px;
+    border-radius: 20px;
+    background: url(./img/kosmos-2.jpg);
+}
+.knopka_2{
+    text-decoration: none;
+    border: 1px solid black;
+    color: black;
+    padding: 15px 60px;
+    font-size: 20px;
+    transition: all 0.5s;
+    border-radius: 10px;
+    /* background-color: rgb(175, 175, 175); */
+    margin-top: 100px;
+    background: wheat;
+}
+.knopka_2:hover{
+    background-color: cadetblue;
+    color: white;
+    -webkit-box-shadow: 6px -2px 15px 3px rgba(0,0,0,0.92); 
+    box-shadow: 2px -2px 10px 1px rgba(0,0,0,0.92);
+}
+.down{
+    width: 1200px;
+    border-radius: 20px;
+    -webkit-box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92); 
+    box-shadow: 1px 1px 23px -2px rgba(0,0,0,0.92);
+    margin-bottom: 30px;
+}
+.footer{
+    display: flex;
+    height: 150px;
+    width: 30%;
+    align-items: center;
+    margin-top: 20px;
+}
+img{
+    height: 40px;
+    width: 40px;
+}
+img:hover {
+    height: 50px;
+    width: 50px;
+}
+input{
+    position: fixed;
+    top: -20px;
+}
+input::before{
+    content: "";
+    position: fixed;
+    background: url(./img/kosmos-2.jpg);
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-size: cover;
+    right: 15%;
+    top: 30px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+input:checked + .gen{
+    background: url(./img/Ozn.gif) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+input:checked + .gen .header_inner{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+input:checked + .gen .main_inner{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+input:checked + .gen .down{
+    background-color: rgba(255, 255, 255, 0.589);
+}
+input:checked + .gen .main_inner a{
+    font-family: 'Dongle', sans-serif;
+    font-size: 40px;
+}
+input:checked + .gen .top{
+    background-color: white;
+}
+input:checked + .gen .menu_top a{
+    color: rgb(104, 139, 34);
+}
+input:checked + .gen .header h1{
+    font-family: 'Dongle', sans-serif;
+    font-size: 100px;
+}
+input:checked + .gen .header .knopka{
+    background-color: gray;
+}
+input:checked + .gen .main .a_box{
+    height: 27px;
+}
+
+@media screen and (max-width:800px){
+    .info{
+        width: 400px;
+        height: 200px;
+        padding: 50px 40px;
+    }
+    .footer{
+        margin: 0 0 0 240px;
+        width: 400px;
+    }
+    .down{
+        margin-top: 20px;
+        width: 780px;
+    }
+}
+@media screen and (max-width:590px){
+    .info{
+        width: 200px;
+        height: 100px;
+        padding: 25px 20px;
+    }
+    .footer{
+        margin: 0 0 0 200px;
+        width: 200px;
+    }
+    .down{
+        margin-top: 20px;
+        width: 560px;
+    }
+}
+@media screen and (max-width:400px){
+    .info{
+        width: 200px;
+        height: 100px;
+        padding: 25px 20px;
+    }
+    .footer{
+        margin: 0 0 0 80px;
+    }
+    .main{
+        height: 420px;
+    }
+    .main_inner{
+        height: 400px;
+    }
+    .header_knopka{
+        width: 50px;
+        height: 70px;
+    }
+    .menu_top a{
+        font-size: 10px;
+        margin-right: 0px;
+    }
+    .text_header h1{
+        font-size: 30px;
+    }
+    .down{
+        margin-top: 10px;
+        width: 380px;
+    }
+}
+
